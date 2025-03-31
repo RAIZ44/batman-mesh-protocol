@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Update and install dependencies
-sudo apt-get update && sudo apt-get upgrade -y
+# Install dependencies
 sudo apt-get install -y batctl libnl-3-dev libnl-genl-3-dev
 
 # Stop conflicting network services
